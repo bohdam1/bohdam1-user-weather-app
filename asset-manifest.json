@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bohdam1-user-weather-app/static/css/main.e25976b7.css",
+    "main.js": "/bohdam1-user-weather-app/static/js/main.d629ad5e.js",
+    "index.html": "/bohdam1-user-weather-app/index.html",
+    "main.e25976b7.css.map": "/bohdam1-user-weather-app/static/css/main.e25976b7.css.map",
+    "main.d629ad5e.js.map": "/bohdam1-user-weather-app/static/js/main.d629ad5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e25976b7.css",
+    "static/js/main.d629ad5e.js"
+  ]
+}
