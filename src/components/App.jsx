@@ -1,16 +1,20 @@
-export const App = () => {
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import UserList from "../components/UserList/UserList";
+import SavedUsers from "../components/SaveUser/SaveUser";
+import Navbar from "../components/NavBar/NavBar";
+import styles from "./App.module.css";
+
+const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className={styles.container}>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<UserList />} />
+        <Route path="/saved" element={<SavedUsers />} />
+      </Routes>
     </div>
   );
 };
+
+export default App;
